@@ -17,7 +17,7 @@ Nossa metodologia de QA é abrangente, cobrindo **Testes de Layout, Responsivida
 **Principais Entregáveis deste Portfólio:**
 
 1.  **Planilha de Execução de Testes de Layout (`Planilha_QA_LuminaTech_Portfolio.xlsx`):** Uma ferramenta estruturada para documentar e acompanhar casos de teste, status, gravidade e observações, garantindo rastreabilidade e clareza.
-2.  **Protocolo de Report de Bugs (QA Senior):** Um modelo detalhado para reportar defeitos, assegurando que cada bug seja documentado com clareza, contexto e evidências visuais, minimizando a comunicação adicional e acelerando a resolução.
+2.  **Protocolo de Report de Bugs:** Um modelo detalhado para reportar defeitos, assegurando que cada bug seja documentado com clareza, contexto e evidências visuais, minimizando a comunicação adicional e acelerando a resolução.
 3.  **Exemplos de Bug Reports:** Três exemplos práticos de relatórios de bugs (Crítico, Alto, Médio) seguindo o protocolo, incluindo "Sugestões Técnicas" que demonstram uma visão aprofundada do problema e possíveis soluções.
 4.  **Conceito do E-commerce (`lumina_tech_concept.md`):** Detalhes sobre a marca Lumina Tech, seu público-alvo e os desafios de QA específicos que ela apresenta.
 
@@ -26,7 +26,7 @@ Nossa metodologia de QA é abrangente, cobrindo **Testes de Layout, Responsivida
 Para ilustrar a profundidade do nosso protocolo de reporte, segue um exemplo:
 
 ```markdown
-🐞 [UI/UX] Bug Report: Botão de Checkout sobreposto no carrinho (Mobile)
+🐞 [UI/UX] Bug Report: Botão de Checkout sobreposto no carrinho (mobile)
 ID: #001
 Severidade: Alta
 Prioridade: P2 - Alta
@@ -57,7 +57,7 @@ Print de Tela: [Anexe aqui a imagem com uma seta vermelha apontando o erro, ex: 
 Link do Figma: [Cole aqui o link da seção específica do design para comparação, ex: `https://www.figma.com/file/LuminaTech_Design/carrinho#checkout-mobile`]
 Log do Console (Opcional): N/A
 
-💡 Sugestão Técnica (O "Pulo do Gato" do Senior)
+💡 Sugestão Técnica:
 Dica: Verifique se a classe `.btn-checkout` não está herdando um `padding` fixo do container pai que está forçando a quebra de linha prematura no container de texto, ou se o `position: absolute` não está sendo aplicado de forma inadequada para este breakpoint. Considere usar `flexbox` ou `grid` para um layout mais responsivo e robusto na seção do rodapé do carrinho.
 
 ```
