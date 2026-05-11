@@ -1,4 +1,4 @@
-# Portfólio QA Senior: Projeto Lumina Tech E-commerce
+# Portfólio QA Engineer: Projeto Lumina Tech E-commerce
 
 ## 🚀 Visão Geral
 
